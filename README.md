@@ -4,7 +4,8 @@ Docker is an open-source containerization platform that allows developers to pac
 Docker is an OS‑level virtualization (or containerization) platform, which allows applications to share the host OS kernel instead of running a separate guest OS like in traditional virtualization.
 
 Docker helps solve the problem of “it works on my machine” by ensuring application consistency and faster deployments.
-![alt text](../images/docker-archi.png)
+
+![alt text](images/docker-archi.png)
 
 
 ## Monolithic vs Microservices
