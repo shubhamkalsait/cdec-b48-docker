@@ -147,4 +147,14 @@ docker exec -it [ContainerID] bash  # to attach / access to a container
 docker run -P [ContainerImage]  # to expose all ports on random ports from 32768 to 61000
 docker logs [ContainerID]   # to check container logs
 docker stats [ContainerID]  # to check container resources
+docker images #to list downloaded docker images in system
+docker image list # to list downloaded docker images in system
+docker pull [imagename] #to download that image
+docker image [subcommand] #to work with images
+docker rm -f 'docker ps -aq' #to remove all the container
+docker ps -a -q  #to list all the conatiner id
+docker rmi [containerId] #to remove images
+docker image inspect [imageId] #to see the detailed info of image
+docker tag [imageId] [imageName:version] #to assign name and version to docker image
 ```
+
