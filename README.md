@@ -99,7 +99,8 @@ Efficient resource usage
 
 Docker
 
-![alt text](../images/vitualization.png)
+![alt text](images/virtualization.png)
+
 
 ## What is Docker?
 
@@ -124,7 +125,9 @@ Docker is a containerization platform that enables developers to build, package,
 
 apt update -y
 
-apt install docker -y
+apt install docker (go to docker official website for installing docker engine on ubuntu)
+![alt text](images/install.png)
+![alt text](images/install2.png)
 
 systemctl start docker
 
