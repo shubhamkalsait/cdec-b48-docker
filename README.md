@@ -1,6 +1,8 @@
 # Docker
 
 ## Monolithic vs Microservices
+Monolithic
+A monolithic system is a single-tier application architecture where the UI layer, business logic, and data access layer are combined into one executable artifact and deployed together on a single runtime environment.
 
 ## Traditional vs Vertualization vs Containerization
 
