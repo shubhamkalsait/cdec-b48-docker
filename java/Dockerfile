@@ -13,3 +13,6 @@ WORKDIR EasyCRUD/backend
 
 RUN mvn clean package -DskipTest
 
+EXPOSE 8080
+
+CMD ["java", "-jar", "target/EasyCRUD-1.0-SNAPSHOT.jar"]"]
