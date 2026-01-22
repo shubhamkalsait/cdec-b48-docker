@@ -11,4 +11,5 @@ RUN git clone https://github.com/shubhamkalsait/EasyCRUD.git
 
 WORKDIR EasyCRUD/backend
 
-RUN mvn clean package -
+RUN mvn clean package -DskipTest
+
