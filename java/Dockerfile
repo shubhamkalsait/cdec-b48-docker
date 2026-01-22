@@ -2,6 +2,7 @@ FROM ubuntu:22.04
 LABEL name shubhamkalsait
  
 SHELL "/bin/bash"
+USER root
 RUN apt update && apt install openjdk-17-jdk git maven -y
 
 WORKDIR /opt
