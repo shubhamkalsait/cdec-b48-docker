@@ -8,4 +8,5 @@ WORKDIR /opt
 
 RUN git clone https://github.com/shubhamkalsait/EasyCRUD.git
 
-WORKDIR EasyCRUD/
+WORKDIR EasyCRUD/backend
+
