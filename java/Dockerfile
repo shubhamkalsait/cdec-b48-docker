@@ -9,6 +9,7 @@ RUN git clone https://github.com/shubhamkalsait/EasyCRUD.git
 WORKDIR EasyCRUD/backend
 
 COPY application.properties src/main/resources/application.properties
+ADD 
 
 RUN mvn clean package -DskipTests
 
