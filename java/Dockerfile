@@ -3,7 +3,7 @@ LABEL name shubhamkalsait
  
 SHELL "/bin/bash"
 USER root
-VOLUME ["/var/www/html"]
+# VOLUME ["/var/www/html"]
 
 RUN apt update && apt install openjdk-17-jdk git maven -y
 
