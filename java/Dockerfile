@@ -21,4 +21,5 @@ EXPOSE 8080
 ENTRYPOINT ["java", "-jar", "target/EasyCRUD-1.0-SNAPSHOT.jar"]
 
 
-ENTRYPOINT ["systemctl" ]
+ENTRYPOINT ["systemctl", "start"]
+CMD ["httpd"]
