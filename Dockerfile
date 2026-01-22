@@ -9,4 +9,4 @@ RUN echo "<h1> Hello, World!" > /var/www/html/index.html
 
 EXPOSE 80
 
-CMD apache2 -D FOREGROUND
+CMD ["apache2", "-D", "FOREGROUND"]
