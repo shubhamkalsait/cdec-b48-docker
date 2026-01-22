@@ -24,4 +24,4 @@ ENTRYPOINT ["java", "-jar", "target/EasyCRUD-1.0-SNAPSHOT.jar"]
 ENTRYPOINT ["systemctl", "start"]
 CMD ["httpd"]
 
-docker run -d image nginx
+docker run -d image mysql
