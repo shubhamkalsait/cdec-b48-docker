@@ -21,4 +21,4 @@ EXPOSE 8080
 ENTRYPOINT ["java", "-jar", "target/EasyCRUD-1.0-SNAPSHOT.jar"]
 
 
-docker run -d my-backend bash
+ENTRYPOINT []
